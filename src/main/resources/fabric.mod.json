@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "malekscraftingtweaks",
+  "version": "${version}",
+  "name": "Malekscraftingtweaks",
+  "description": "A unoffical port of crafting tweaks to Fabric 1.16",
+  "authors": [
+    "MalekiRe"
+  ],
+  "contact": {
+    "repo": "https://github.com/MalekiRe/malekscraftingtweaks"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/malekscraftingtweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "malekscraftingtweaks.malekscraftingtweaks.client.MalekscraftingtweaksClient"
+    ],
+    "main": [
+      "malekscraftingtweaks.malekscraftingtweaks.Malekscraftingtweaks"
+    ]
+  },
+  "mixins": [
+    "malekscraftingtweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
